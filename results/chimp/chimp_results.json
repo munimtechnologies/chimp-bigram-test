@@ -1,0 +1,1544 @@
+{
+ "bigrams": {
+  "GR_BK": {
+   "A": "GR",
+   "B": "BK",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "GR_BK",
+   "excess": -0.033084372841634124,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "markers_A": [
+    "AP",
+    "FE"
+   ],
+   "markers_B": [
+    "BA",
+    "EN",
+    "IG",
+    "IP"
+   ],
+   "multi_rate": {
+    "A": 0.1537313432835821,
+    "AB": 0.2857142857142857,
+    "B": 0.24193548387096775
+   },
+   "n": 21,
+   "n2": 6,
+   "n_A": 1340,
+   "n_B": 124,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": false,
+   "pi_mix": 0.033084372841634124,
+   "q_A": 0.012304250559284116,
+   "q_B": 0.068,
+   "testable": true,
+   "w": 0.626899314740904
+  },
+  "GR_HO": {
+   "A": "GR",
+   "B": "HO",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "GR_HO",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 0.615,
+     "nominal_rate": 0.835,
+     "pair_closest_count": 194,
+     "pair_closest_rate": 0.97
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.01,
+     "pair_closest_count": 101,
+     "pair_closest_rate": 0.505
+    }
+   },
+   "excess": -0.018314486271316443,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "label": "UNDERPOWERED",
+   "markers_A": [
+    "AP"
+   ],
+   "markers_B": [
+    "RE",
+    "TR"
+   ],
+   "multi_rate": {
+    "A": 0.1537313432835821,
+    "AB": 0.2692307692307692,
+    "B": 0.15487571701720843
+   },
+   "n": 26,
+   "n2": 7,
+   "n_A": 1340,
+   "n_B": 1046,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": false,
+   "pi_mix": 0.018314486271316443,
+   "q_A": 0.03467561521252797,
+   "q_B": 0.014804202483285577,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.17664993605941265
+  },
+  "GR_PG": {
+   "A": "GR",
+   "B": "PG",
+   "J": 0.008064516129032258,
+   "R": 10000,
+   "bigram": "GR_PG",
+   "excess": -0.005507675574181657,
+   "exploratory_all": "NOT_REJECT",
+   "k": 1,
+   "markers_A": [
+    "FE"
+   ],
+   "markers_B": [
+    "AF",
+    "NS",
+    "TR"
+   ],
+   "multi_rate": {
+    "A": 0.1537313432835821,
+    "AB": 0.3629032258064516,
+    "B": 0.3236994219653179
+   },
+   "n": 124,
+   "n2": 45,
+   "n_A": 1340,
+   "n_B": 173,
+   "p_t1": 0.7323820422858431,
+   "p_t2": 0.7711923844934447,
+   "pair_closest_real": false,
+   "pi_mix": 0.013572191703213915,
+   "q_A": 0.0018642803877703207,
+   "q_B": 0.014367816091954023,
+   "testable": true,
+   "w": 0.0636319523983837
+  },
+  "GR_PN": {
+   "A": "GR",
+   "B": "PN",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "GR_PN",
+   "excess": -0.007435343843491165,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "markers_A": [
+    "FE"
+   ],
+   "markers_B": [
+    "AF",
+    "PL"
+   ],
+   "multi_rate": {
+    "A": 0.1537313432835821,
+    "AB": 0.2777777777777778,
+    "B": 0.26881720430107525
+   },
+   "n": 54,
+   "n2": 15,
+   "n_A": 1340,
+   "n_B": 186,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": false,
+   "pi_mix": 0.007435343843491165,
+   "q_A": 0.0018642803877703207,
+   "q_B": 0.008021390374331552,
+   "testable": true,
+   "w": 0.09518207927412656
+  },
+  "HO_GR": {
+   "A": "HO",
+   "B": "GR",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "HO_GR",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 0.815,
+     "nominal_rate": 0.98,
+     "pair_closest_count": 199,
+     "pair_closest_rate": 0.995
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.03,
+     "pair_closest_count": 190,
+     "pair_closest_rate": 0.95
+    }
+   },
+   "excess": -0.024295652698172375,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "label": "MIXTURE_NOT_REJECTED",
+   "markers_A": [
+    "RE",
+    "TR"
+   ],
+   "markers_B": [
+    "AP"
+   ],
+   "multi_rate": {
+    "A": 0.15487571701720843,
+    "AB": 0.24528301886792453,
+    "B": 0.1537313432835821
+   },
+   "n": 53,
+   "n2": 13,
+   "n_A": 1046,
+   "n_B": 1340,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": true,
+   "pi_mix": 0.024295652698172375,
+   "q_A": 0.014804202483285577,
+   "q_B": 0.03467561521252797,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.5223565458474243
+  },
+  "HO_PG": {
+   "A": "HO",
+   "B": "PG",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "HO_PG",
+   "excess": -0.01831856218695674,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "markers_A": [
+    "FE",
+    "RE"
+   ],
+   "markers_B": [
+    "AF",
+    "AP",
+    "NS"
+   ],
+   "multi_rate": {
+    "A": 0.15487571701720843,
+    "AB": 0.27419354838709675,
+    "B": 0.3236994219653179
+   },
+   "n": 62,
+   "n2": 17,
+   "n_A": 1046,
+   "n_B": 173,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": true,
+   "pi_mix": 0.01831856218695674,
+   "q_A": 0.0071633237822349575,
+   "q_B": 0.020114942528735632,
+   "testable": true,
+   "w": 0.1386992913348569
+  },
+  "HO_PH": {
+   "A": "HO",
+   "B": "PH",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "HO_PH",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.94,
+     "pair_closest_count": 200,
+     "pair_closest_rate": 1.0
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.0,
+     "pair_closest_count": 200,
+     "pair_closest_rate": 1.0
+    }
+   },
+   "excess": -0.0021140296448025043,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "label": "UNDERPOWERED",
+   "markers_A": [
+    "AP"
+   ],
+   "markers_B": [
+    "IP"
+   ],
+   "multi_rate": {
+    "A": 0.15487571701720843,
+    "AB": 0.3161764705882353,
+    "B": 0.3614457831325301
+   },
+   "n": 136,
+   "n2": 43,
+   "n_A": 1046,
+   "n_B": 249,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": true,
+   "pi_mix": 0.0021140296448025043,
+   "q_A": 0.002387774594078319,
+   "q_B": 0.002,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.2940616702172957
+  },
+  "HO_PN": {
+   "A": "HO",
+   "B": "PN",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "HO_PN",
+   "excess": -0.03181804467719562,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "markers_A": [
+    "FE",
+    "RE",
+    "TR"
+   ],
+   "markers_B": [
+    "AF",
+    "AP",
+    "PL"
+   ],
+   "multi_rate": {
+    "A": 0.15487571701720843,
+    "AB": 0.2727272727272727,
+    "B": 0.26881720430107525
+   },
+   "n": 11,
+   "n2": 3,
+   "n_A": 1046,
+   "n_B": 186,
+   "p_t1": 1.0,
+   "p_t2": null,
+   "pair_closest_real": false,
+   "pi_mix": 0.03181804467719562,
+   "q_A": 0.01766953199617956,
+   "q_B": 0.06684491978609626,
+   "testable": true,
+   "w": 0.7122846749788685
+  },
+  "PG_GR": {
+   "A": "PG",
+   "B": "GR",
+   "J": 0.037037037037037035,
+   "R": 10000,
+   "bigram": "PG_GR",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 1.0,
+     "nominal_rate": 1.0,
+     "pair_closest_count": 193,
+     "pair_closest_rate": 0.965
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.015,
+     "pair_closest_count": 99,
+     "pair_closest_rate": 0.495
+    }
+   },
+   "excess": 0.026506778806934993,
+   "exploratory_all": "NOT_REJECT",
+   "k": 1,
+   "label": "MIXTURE_NOT_REJECTED",
+   "markers_A": [
+    "AF",
+    "NS",
+    "TR"
+   ],
+   "markers_B": [
+    "FE"
+   ],
+   "multi_rate": {
+    "A": 0.3236994219653179,
+    "AB": 0.5185185185185185,
+    "B": 0.1537313432835821
+   },
+   "n": 27,
+   "n2": 14,
+   "n_A": 173,
+   "n_B": 1340,
+   "p_t1": 0.2390621253043931,
+   "p_t2": 0.3665301236576337,
+   "pair_closest_real": false,
+   "pi_mix": 0.010530258230102044,
+   "q_A": 0.014367816091954023,
+   "q_B": 0.0018642803877703207,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.6930821847001304
+  },
+  "PG_PN": {
+   "A": "PG",
+   "B": "PN",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "PG_PN",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 0.145,
+     "nominal_rate": 0.74,
+     "pair_closest_count": 199,
+     "pair_closest_rate": 0.995
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.0,
+     "pair_closest_count": 190,
+     "pair_closest_rate": 0.95
+    }
+   },
+   "excess": -0.0027381532945677843,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "label": "UNDERPOWERED",
+   "markers_A": [
+    "NS",
+    "TR"
+   ],
+   "markers_B": [
+    "PL"
+   ],
+   "multi_rate": {
+    "A": 0.3236994219653179,
+    "AB": 0.5384615384615384,
+    "B": 0.26881720430107525
+   },
+   "n": 13,
+   "n2": 7,
+   "n_A": 173,
+   "n_B": 186,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": true,
+   "pi_mix": 0.0027381532945677843,
+   "q_A": 0.0028735632183908046,
+   "q_B": 0.00267379679144385,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.32215875363793406
+  },
+  "PH_HO": {
+   "A": "PH",
+   "B": "HO",
+   "J": 0.043478260869565216,
+   "R": 10000,
+   "bigram": "PH_HO",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 0.065,
+     "nominal_rate": 0.51,
+     "pair_closest_count": 199,
+     "pair_closest_rate": 0.995
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.0,
+     "pair_closest_count": 157,
+     "pair_closest_rate": 0.785
+    }
+   },
+   "excess": 0.041127376619112185,
+   "exploratory_all": "NOT_REJECT",
+   "k": 1,
+   "label": "UNDERPOWERED",
+   "markers_A": [
+    "IP"
+   ],
+   "markers_B": [
+    "AP"
+   ],
+   "multi_rate": {
+    "A": 0.3614457831325301,
+    "AB": 0.34782608695652173,
+    "B": 0.15487571701720843
+   },
+   "n": 23,
+   "n2": 8,
+   "n_A": 249,
+   "n_B": 1046,
+   "p_t1": 0.052277507148766424,
+   "p_t2": 0.10721055638987519,
+   "pair_closest_real": true,
+   "pi_mix": 0.0023508842504530274,
+   "q_A": 0.002,
+   "q_B": 0.002387774594078319,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.09513347235389163
+  },
+  "PH_PB": {
+   "A": "PH",
+   "B": "PB",
+   "J": 0.2463768115942029,
+   "R": 10000,
+   "bigram": "PH_PB",
+   "excess": 0.08174927673616803,
+   "exploratory_all": "NOT_REJECT",
+   "k": 17,
+   "markers_A": [
+    "FE",
+    "TR"
+   ],
+   "markers_B": [
+    "BA",
+    "IG",
+    "IP"
+   ],
+   "multi_rate": {
+    "A": 0.3614457831325301,
+    "AB": 0.5217391304347826,
+    "B": 0.569620253164557
+   },
+   "n": 69,
+   "n2": 36,
+   "n_A": 249,
+   "n_B": 79,
+   "p_t1": 0.07354651557439129,
+   "p_t2": 0.30407008166027893,
+   "pair_closest_real": true,
+   "pi_mix": 0.16462753485803489,
+   "q_A": 0.19,
+   "q_B": 0.11875,
+   "testable": true,
+   "w": 0.6438952260776826
+  },
+  "PH_PG": {
+   "A": "PH",
+   "B": "PG",
+   "J": 0.13333333333333333,
+   "R": 10000,
+   "bigram": "PH_PG",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 1.0,
+     "nominal_rate": 1.0,
+     "pair_closest_count": 100,
+     "pair_closest_rate": 0.5
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.035,
+     "pair_closest_count": 2,
+     "pair_closest_rate": 0.01
+    }
+   },
+   "excess": 0.05205597306032522,
+   "exploratory_all": "NOT_REJECT",
+   "k": 2,
+   "label": "MIXTURE_NOT_REJECTED",
+   "markers_A": [
+    "FE",
+    "IP",
+    "RE",
+    "TR"
+   ],
+   "markers_B": [
+    "AF",
+    "AP",
+    "NS"
+   ],
+   "multi_rate": {
+    "A": 0.3614457831325301,
+    "AB": 0.4,
+    "B": 0.3236994219653179
+   },
+   "n": 15,
+   "n2": 6,
+   "n_A": 249,
+   "n_B": 173,
+   "p_t1": 0.3394489559219557,
+   "p_t2": 0.4488675998293283,
+   "pair_closest_real": false,
+   "pi_mix": 0.08127736027300811,
+   "q_A": 0.014,
+   "q_B": 0.08333333333333333,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.029653457600844535
+  },
+  "PH_PS": {
+   "A": "PH",
+   "B": "PS",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "PH_PS",
+   "excess": -0.002,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "markers_A": [
+    "FU",
+    "IP",
+    "TR"
+   ],
+   "markers_B": [
+    "BE",
+    "RA"
+   ],
+   "multi_rate": {
+    "A": 0.3614457831325301,
+    "AB": 0.3548387096774194,
+    "B": 0.0
+   },
+   "n": 62,
+   "n2": 22,
+   "n_A": 249,
+   "n_B": 12,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": false,
+   "pi_mix": 0.002,
+   "q_A": 0.002,
+   "q_B": 0.038461538461538464,
+   "testable": true,
+   "w": 1.0
+  },
+  "PH_SC": {
+   "A": "PH",
+   "B": "SC",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "PH_SC",
+   "excess": -0.030539417121519915,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "markers_A": [
+    "FE",
+    "FU",
+    "IP",
+    "RE",
+    "TR"
+   ],
+   "markers_B": [
+    "GA",
+    "RA"
+   ],
+   "multi_rate": {
+    "A": 0.3614457831325301,
+    "AB": 0.4117647058823529,
+    "B": 0.18627450980392157
+   },
+   "n": 17,
+   "n2": 7,
+   "n_A": 249,
+   "n_B": 102,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": false,
+   "pi_mix": 0.030539417121519915,
+   "q_A": 0.03,
+   "q_B": 0.03398058252427184,
+   "testable": true,
+   "w": 0.8644878938620699
+  },
+  "PN_PG": {
+   "A": "PN",
+   "B": "PG",
+   "J": 0.0,
+   "R": 10000,
+   "bigram": "PN_PG",
+   "calibration": {
+    "R_cal": 500,
+    "S": 200,
+    "conjunction": {
+     "label_rate": 0.37,
+     "nominal_rate": 0.665,
+     "pair_closest_count": 200,
+     "pair_closest_rate": 1.0
+    },
+    "level": 0.00625,
+    "mixture": {
+     "label_rate": 0.0,
+     "nominal_rate": 0.0,
+     "pair_closest_count": 193,
+     "pair_closest_rate": 0.965
+    }
+   },
+   "excess": -0.00282979940476761,
+   "exploratory_all": "NOT_REJECT",
+   "k": 0,
+   "label": "UNDERPOWERED",
+   "markers_A": [
+    "PL"
+   ],
+   "markers_B": [
+    "NS",
+    "TR"
+   ],
+   "multi_rate": {
+    "A": 0.26881720430107525,
+    "AB": 0.5238095238095238,
+    "B": 0.3236994219653179
+   },
+   "n": 21,
+   "n2": 11,
+   "n_A": 186,
+   "n_B": 173,
+   "p_t1": 1.0,
+   "p_t2": 1.0,
+   "pair_closest_real": true,
+   "pi_mix": 0.00282979940476761,
+   "q_A": 0.00267379679144385,
+   "q_B": 0.0028735632183908046,
+   "t2_holm_reject": false,
+   "testable": true,
+   "w": 0.21907491810330731
+  }
+ },
+ "c4": {
+  "conjunction_pair_closest": 1484,
+  "mixture_pair_closest": 1132,
+  "real_pair_closest": {
+   "GR_HO": false,
+   "HO_GR": true,
+   "HO_PH": true,
+   "PG_GR": false,
+   "PG_PN": true,
+   "PH_HO": true,
+   "PH_PG": false,
+   "PN_PG": true
+  },
+  "sets_per_kind": 1600
+ },
+ "code_sha256": "c6f5e2e355ec79690583e4fe210032f2854a94b4f51ea1ab9a007cafe3a773f1",
+ "config": {
+  "bigrams": [
+   "GR_BK",
+   "GR_HO",
+   "GR_PG",
+   "GR_PN",
+   "HO_GR",
+   "HO_PG",
+   "HO_PH",
+   "HO_PN",
+   "PG_GR",
+   "PG_PN",
+   "PH_HO",
+   "PH_PB",
+   "PH_PG",
+   "PH_PS",
+   "PH_SC",
+   "PN_PG"
+  ],
+  "claimed": [
+   "HO_PH",
+   "PN_PG",
+   "HO_GR",
+   "PG_PN",
+   "PH_HO",
+   "GR_HO",
+   "PG_GR",
+   "PH_PG"
+  ],
+  "gate_r_need": 12,
+  "min_p": 0.1,
+  "paper_closest": {
+   "GR_BK": "HO",
+   "GR_HO": "HO",
+   "GR_PG": "PG",
+   "GR_PN": "PG",
+   "HO_GR": "HO",
+   "HO_PG": "PG",
+   "HO_PH": "PH",
+   "HO_PN": "PG",
+   "PG_GR": "PG",
+   "PG_PN": "PN",
+   "PH_HO": "HO",
+   "PH_PB": "PH",
+   "PH_PG": "PG",
+   "PH_PS": "PH",
+   "PH_SC": "PH",
+   "PN_PG": "PG"
+  },
+  "r_cal": 500,
+  "r_main": 10000,
+  "r_sens": 2000,
+  "ratio": 2.0,
+  "rows_hi": 4350,
+  "rows_lo": 4300,
+  "s_cal": 200,
+  "seed": 20261119,
+  "sens_thresholds": [
+   [
+    0.05,
+    1.5
+   ],
+   [
+    0.2,
+    3.0
+   ]
+  ],
+  "strict": [
+   "HO_PH",
+   "PN_PG",
+   "HO_GR",
+   "PG_PN"
+  ]
+ },
+ "d1": {
+  "bigram_multi_rate": 0.3542234332425068,
+  "bigram_tokens": 734,
+  "single_multi_rate": 0.1875696767001115,
+  "single_tokens": 3588
+ },
+ "data": {
+  "csv_bytes": 131261,
+  "csv_sha256": "7cfe322d68c88c5c56bd2be3abce94d6f86e446c2a85f2728b0c54033c0bdf0d",
+  "member": "tozbu-Chimpanzee_bigram_meaning-17184aa/calldata.csv",
+  "source": "zenodo",
+  "url": "https://zenodo.org/api/records/13889876/files/tozbu/Chimpanzee_bigram_meaning-chimpbigrams.zip/content",
+  "zip_md5": "96e88c4dff3ceb7f647ad5bd4ca213c0"
+ },
+ "events": [
+  "AF",
+  "AP",
+  "BA",
+  "BE",
+  "CO",
+  "DI",
+  "EN",
+  "FE",
+  "FU",
+  "GA",
+  "GR",
+  "HU",
+  "IG",
+  "IP",
+  "NS",
+  "OP",
+  "PL",
+  "RA",
+  "RE",
+  "SC",
+  "SH",
+  "TR"
+ ],
+ "family": [
+  "HO_PH",
+  "PN_PG",
+  "HO_GR",
+  "PG_PN",
+  "PH_HO",
+  "GR_HO",
+  "PG_GR",
+  "PH_PG"
+ ],
+ "gate_d": {
+  "checks": {
+   "all_bigrams_present": true,
+   "all_components_present": true,
+   "mismatch_at_most_1pct": true,
+   "rows_in_range": true
+  },
+  "length_mismatch": 0,
+  "missing_bigrams": [],
+  "missing_components": [],
+  "n_read": 4322,
+  "n_used": 4322,
+  "pass": true
+ },
+ "gate_r": {
+  "agree": 14,
+  "need": 12,
+  "of": 16,
+  "pass": true,
+  "per_bigram": {
+   "GR_BK": {
+    "dist": 0.39126048013707126,
+    "ours": "SC",
+    "paper": "HO",
+    "second": "PS"
+   },
+   "GR_HO": {
+    "dist": 0.2961983510729344,
+    "ours": "HO",
+    "paper": "HO",
+    "second": "PH"
+   },
+   "GR_PG": {
+    "dist": 0.19694523721543117,
+    "ours": "PG",
+    "paper": "PG",
+    "second": "PN"
+   },
+   "GR_PN": {
+    "dist": 0.30097331910656333,
+    "ours": "PN",
+    "paper": "PG",
+    "second": "PG"
+   },
+   "HO_GR": {
+    "dist": 0.26011784642709057,
+    "ours": "HO",
+    "paper": "HO",
+    "second": "GR"
+   },
+   "HO_PG": {
+    "dist": 0.7631879266558417,
+    "ours": "PG",
+    "paper": "PG",
+    "second": "HO"
+   },
+   "HO_PH": {
+    "dist": 0.23175639755561536,
+    "ours": "PH",
+    "paper": "PH",
+    "second": "HO"
+   },
+   "HO_PN": {
+    "dist": 0.6264208389133151,
+    "ours": "PG",
+    "paper": "PG",
+    "second": "HO"
+   },
+   "PG_GR": {
+    "dist": 0.40825157428893494,
+    "ours": "PG",
+    "paper": "PG",
+    "second": "PN"
+   },
+   "PG_PN": {
+    "dist": 0.44852332135085055,
+    "ours": "PN",
+    "paper": "PN",
+    "second": "PG"
+   },
+   "PH_HO": {
+    "dist": 0.1897916289100093,
+    "ours": "HO",
+    "paper": "HO",
+    "second": "PH"
+   },
+   "PH_PB": {
+    "dist": 0.27086491570914273,
+    "ours": "PH",
+    "paper": "PH",
+    "second": "PB"
+   },
+   "PH_PG": {
+    "dist": 0.26292297919535823,
+    "ours": "PG",
+    "paper": "PG",
+    "second": "PN"
+   },
+   "PH_PS": {
+    "dist": 0.14077781208568468,
+    "ours": "PH",
+    "paper": "PH",
+    "second": "HO"
+   },
+   "PH_SC": {
+    "dist": 0.3600865511839895,
+    "ours": "PH",
+    "paper": "PH",
+    "second": "HO"
+   },
+   "PN_PG": {
+    "dist": 0.41317514131210686,
+    "ours": "PG",
+    "paper": "PG",
+    "second": "PN"
+   }
+  }
+ },
+ "grading": {
+  "brier": 0.17055555555555554,
+  "graded": [
+   "P1",
+   "P2",
+   "P3",
+   "P4",
+   "P5",
+   "P6",
+   "P7",
+   "P8",
+   "P9"
+  ],
+  "priors": {
+   "P1": 0.9,
+   "P10": 0.6,
+   "P2": 0.7,
+   "P3": 0.5,
+   "P4": 0.3,
+   "P5": 0.35,
+   "P6": 0.8,
+   "P7": 0.5,
+   "P8": 0.6,
+   "P9": 0.65
+  },
+  "truth": {
+   "P1": true,
+   "P10": null,
+   "P2": true,
+   "P3": true,
+   "P4": true,
+   "P5": false,
+   "P6": true,
+   "P7": false,
+   "P8": true,
+   "P9": true
+  }
+ },
+ "labels": {
+  "GR_HO": "UNDERPOWERED",
+  "HO_GR": "MIXTURE_NOT_REJECTED",
+  "HO_PH": "UNDERPOWERED",
+  "PG_GR": "MIXTURE_NOT_REJECTED",
+  "PG_PN": "UNDERPOWERED",
+  "PH_HO": "UNDERPOWERED",
+  "PH_PG": "MIXTURE_NOT_REJECTED",
+  "PN_PG": "UNDERPOWERED"
+ },
+ "overall": "NO_CONJUNCTION_POWERED",
+ "python": "3.12.16",
+ "registration": {
+  "found": true,
+  "sha256": "6ecf66f18e3a5e147408001e4948193f97e49139c3d851ce329c8035128db7cc",
+  "tries": 1,
+  "url": "https://raw.githubusercontent.com/munimtechnologies/chimp-bigram-test/main/CHIMP-PREREG.md",
+  "utc": "2026-11-19T18:24:27Z"
+ },
+ "seconds": 62.01269006729126,
+ "sensitivity": {
+  "S1_dedup": {
+   "R": 2000,
+   "labels": {
+    "GR_HO": "NOT_SUPPORTED",
+    "HO_GR": "NOT_SUPPORTED",
+    "HO_PH": "NOT_SUPPORTED",
+    "PG_GR": "NOT_SUPPORTED",
+    "PG_PN": "NOT_SUPPORTED",
+    "PH_HO": "NOT_SUPPORTED",
+    "PH_PG": "NOT_SUPPORTED",
+    "PN_PG": "NOT_SUPPORTED"
+   },
+   "per_bigram": {
+    "GR_HO": {
+     "J": 0.0,
+     "excess": -0.021668659142764893,
+     "k": 0,
+     "markers_A": [
+      "AP"
+     ],
+     "markers_B": [
+      "RE",
+      "TR"
+     ],
+     "n": 26,
+     "p_t1": 1.0,
+     "pi_mix": 0.021668659142764893,
+     "testable": true,
+     "why": null
+    },
+    "HO_GR": {
+     "J": 0.0,
+     "excess": -0.028973891452957107,
+     "k": 0,
+     "markers_A": [
+      "RE",
+      "TR"
+     ],
+     "markers_B": [
+      "AP"
+     ],
+     "n": 48,
+     "p_t1": 1.0,
+     "pi_mix": 0.028973891452957107,
+     "testable": true,
+     "why": null
+    },
+    "HO_PH": {
+     "J": 0.0,
+     "excess": -0.0025186976253931247,
+     "k": 0,
+     "markers_A": [
+      "AP"
+     ],
+     "markers_B": [
+      "IP"
+     ],
+     "n": 124,
+     "p_t1": 1.0,
+     "pi_mix": 0.0025186976253931247,
+     "testable": true,
+     "why": null
+    },
+    "PG_GR": {
+     "J": 0.0,
+     "excess": -0.002071706934937673,
+     "k": 0,
+     "markers_A": [
+      "NS"
+     ],
+     "markers_B": [
+      "FE"
+     ],
+     "n": 27,
+     "p_t1": 1.0,
+     "pi_mix": 0.002071706934937673,
+     "testable": true,
+     "why": null
+    },
+    "PG_PN": {
+     "J": 0.0,
+     "excess": -0.003143089992501502,
+     "k": 0,
+     "markers_A": [
+      "NS"
+     ],
+     "markers_B": [
+      "PL"
+     ],
+     "n": 13,
+     "p_t1": 1.0,
+     "pi_mix": 0.003143089992501502,
+     "testable": true,
+     "why": null
+    },
+    "PH_HO": {
+     "J": 0.043478260869565216,
+     "excess": 0.040285992067513876,
+     "k": 1,
+     "markers_A": [
+      "IP"
+     ],
+     "markers_B": [
+      "AP"
+     ],
+     "n": 23,
+     "p_t1": 0.06816011835273254,
+     "pi_mix": 0.0031922688020513427,
+     "testable": true,
+     "why": null
+    },
+    "PH_PG": {
+     "J": 0.13333333333333333,
+     "excess": 0.05470383133597306,
+     "k": 2,
+     "markers_A": [
+      "FE",
+      "IP",
+      "RE",
+      "TR"
+     ],
+     "markers_B": [
+      "AF",
+      "AP",
+      "NS"
+     ],
+     "n": 15,
+     "p_t1": 0.32831298061404146,
+     "pi_mix": 0.07862950199736027,
+     "testable": true,
+     "why": null
+    },
+    "PN_PG": {
+     "J": 0.0,
+     "excess": -0.0030473186857992575,
+     "k": 0,
+     "markers_A": [
+      "PL"
+     ],
+     "markers_B": [
+      "NS"
+     ],
+     "n": 20,
+     "p_t1": 1.0,
+     "pi_mix": 0.0030473186857992575,
+     "testable": true,
+     "why": null
+    }
+   },
+   "thresholds": [
+    0.1,
+    2.0
+   ]
+  },
+  "S2_thresholds_1": {
+   "R": 2000,
+   "labels": {
+    "GR_HO": "NOT_SUPPORTED",
+    "HO_GR": "NOT_SUPPORTED",
+    "HO_PH": "NOT_SUPPORTED",
+    "PG_GR": "NOT_SUPPORTED",
+    "PG_PN": "NOT_SUPPORTED",
+    "PH_HO": "NOT_SUPPORTED",
+    "PH_PG": "NOT_SUPPORTED",
+    "PN_PG": "NOT_SUPPORTED"
+   },
+   "per_bigram": {
+    "GR_HO": {
+     "J": 0.038461538461538464,
+     "excess": -0.005552320258596345,
+     "k": 1,
+     "markers_A": [
+      "AF",
+      "AP",
+      "FE"
+     ],
+     "markers_B": [
+      "EN",
+      "IP",
+      "RE",
+      "TR"
+     ],
+     "n": 26,
+     "p_t1": 0.6848488230449007,
+     "pi_mix": 0.04401385872013481,
+     "testable": true,
+     "why": null
+    },
+    "HO_GR": {
+     "J": 0.05660377358490566,
+     "excess": 0.011641932142922931,
+     "k": 3,
+     "markers_A": [
+      "EN",
+      "IP",
+      "RE",
+      "TR"
+     ],
+     "markers_B": [
+      "AF",
+      "AP",
+      "FE"
+     ],
+     "n": 53,
+     "p_t1": 0.427416759401737,
+     "pi_mix": 0.04496184144198273,
+     "testable": true,
+     "why": null
+    },
+    "HO_PH": {
+     "J": 0.07352941176470588,
+     "excess": 0.02373786102332163,
+     "k": 10,
+     "markers_A": [
+      "AP",
+      "EN",
+      "RE"
+     ],
+     "markers_B": [
+      "DI",
+      "GA",
+      "IP",
+      "TR"
+     ],
+     "n": 136,
+     "p_t1": 0.167832734432035,
+     "pi_mix": 0.049791550741384256,
+     "testable": true,
+     "why": null
+    },
+    "PG_GR": {
+     "J": 0.037037037037037035,
+     "excess": 0.026506778806934993,
+     "k": 1,
+     "markers_A": [
+      "AF",
+      "NS",
+      "TR"
+     ],
+     "markers_B": [
+      "FE"
+     ],
+     "n": 27,
+     "p_t1": 0.2396925965603404,
+     "pi_mix": 0.010530258230102044,
+     "testable": true,
+     "why": null
+    },
+    "PG_PN": {
+     "J": 0.0,
+     "excess": -0.017315585972101307,
+     "k": 0,
+     "markers_A": [
+      "NS",
+      "TR"
+     ],
+     "markers_B": [
+      "AF",
+      "BE",
+      "PL"
+     ],
+     "n": 13,
+     "p_t1": 1.0,
+     "pi_mix": 0.017315585972101307,
+     "testable": true,
+     "why": null
+    },
+    "PH_HO": {
+     "J": 0.08695652173913043,
+     "excess": 0.05421500229021464,
+     "k": 2,
+     "markers_A": [
+      "DI",
+      "GA",
+      "IP",
+      "TR"
+     ],
+     "markers_B": [
+      "AP",
+      "EN",
+      "RE"
+     ],
+     "n": 23,
+     "p_t1": 0.17859836131958748,
+     "pi_mix": 0.03274151944891579,
+     "testable": true,
+     "why": null
+    },
+    "PH_PG": {
+     "J": 0.13333333333333333,
+     "excess": 0.05205597306032522,
+     "k": 2,
+     "markers_A": [
+      "DI",
+      "FE",
+      "GA",
+      "IP",
+      "RE",
+      "TR"
+     ],
+     "markers_B": [
+      "AF",
+      "AP",
+      "NS"
+     ],
+     "n": 15,
+     "p_t1": 0.34316537356694815,
+     "pi_mix": 0.08127736027300811,
+     "testable": true,
+     "why": null
+    },
+    "PN_PG": {
+     "J": 0.047619047619047616,
+     "excess": 0.032298526968988675,
+     "k": 1,
+     "markers_A": [
+      "AF",
+      "BE",
+      "PL"
+     ],
+     "markers_B": [
+      "NS",
+      "TR"
+     ],
+     "n": 21,
+     "p_t1": 0.27700087241833293,
+     "pi_mix": 0.015320520650058945,
+     "testable": true,
+     "why": null
+    }
+   },
+   "thresholds": [
+    0.05,
+    1.5
+   ]
+  },
+  "S2_thresholds_2": {
+   "R": 2000,
+   "labels": {
+    "GR_HO": "NOT_SUPPORTED",
+    "HO_GR": "NOT_SUPPORTED",
+    "HO_PH": "NOT_TESTABLE",
+    "PG_GR": "NOT_SUPPORTED",
+    "PG_PN": "NOT_SUPPORTED",
+    "PH_HO": "NOT_TESTABLE",
+    "PH_PG": "NOT_SUPPORTED",
+    "PN_PG": "NOT_SUPPORTED"
+   },
+   "per_bigram": {
+    "GR_HO": {
+     "J": 0.0,
+     "excess": -0.013983357247113092,
+     "k": 0,
+     "markers_A": [
+      "AP"
+     ],
+     "markers_B": [
+      "TR"
+     ],
+     "n": 26,
+     "p_t1": 1.0,
+     "pi_mix": 0.013983357247113092,
+     "testable": true,
+     "why": null
+    },
+    "HO_GR": {
+     "J": 0.0,
+     "excess": -0.019094360429287725,
+     "k": 0,
+     "markers_A": [
+      "TR"
+     ],
+     "markers_B": [
+      "AP"
+     ],
+     "n": 53,
+     "p_t1": 1.0,
+     "pi_mix": 0.019094360429287725,
+     "testable": true,
+     "why": null
+    },
+    "HO_PH": {
+     "J": null,
+     "excess": null,
+     "k": null,
+     "markers_A": [],
+     "markers_B": [
+      "IP"
+     ],
+     "n": 136,
+     "p_t1": null,
+     "pi_mix": null,
+     "testable": false,
+     "why": "no distinctive event for HO"
+    },
+    "PG_GR": {
+     "J": 0.0,
+     "excess": -0.002106051646020409,
+     "k": 0,
+     "markers_A": [
+      "NS"
+     ],
+     "markers_B": [
+      "FE"
+     ],
+     "n": 27,
+     "p_t1": 1.0,
+     "pi_mix": 0.002106051646020409,
+     "testable": true,
+     "why": null
+    },
+    "PG_PN": {
+     "J": 0.0,
+     "excess": -0.0027381532945677843,
+     "k": 0,
+     "markers_A": [
+      "NS"
+     ],
+     "markers_B": [
+      "PL"
+     ],
+     "n": 13,
+     "p_t1": 1.0,
+     "pi_mix": 0.0027381532945677843,
+     "testable": true,
+     "why": null
+    },
+    "PH_HO": {
+     "J": null,
+     "excess": null,
+     "k": null,
+     "markers_A": [
+      "IP"
+     ],
+     "markers_B": [],
+     "n": 23,
+     "p_t1": null,
+     "pi_mix": null,
+     "testable": false,
+     "why": "no distinctive event for HO"
+    },
+    "PH_PG": {
+     "J": 0.13333333333333333,
+     "excess": 0.09121151675736128,
+     "k": 2,
+     "markers_A": [
+      "FE",
+      "IP"
+     ],
+     "markers_B": [
+      "AP",
+      "NS"
+     ],
+     "n": 15,
+     "p_t1": 0.12904130999785224,
+     "pi_mix": 0.04212181657597205,
+     "testable": true,
+     "why": null
+    },
+    "PN_PG": {
+     "J": 0.0,
+     "excess": -0.00282979940476761,
+     "k": 0,
+     "markers_A": [
+      "PL"
+     ],
+     "markers_B": [
+      "NS"
+     ],
+     "n": 21,
+     "p_t1": 1.0,
+     "pi_mix": 0.00282979940476761,
+     "testable": true,
+     "why": null
+    }
+   },
+   "thresholds": [
+    0.2,
+    3.0
+   ]
+  }
+ },
+ "singles": {
+  "BK": 124,
+  "GR": 1340,
+  "HO": 1046,
+  "NV": 219,
+  "PB": 79,
+  "PG": 173,
+  "PH": 249,
+  "PN": 186,
+  "PS": 12,
+  "SC": 102,
+  "WH": 58
+ },
+ "status": "ok",
+ "strict": [
+  "HO_PH",
+  "PN_PG",
+  "HO_GR",
+  "PG_PN"
+ ],
+ "strict_labels": {
+  "HO_GR": "MIXTURE_NOT_REJECTED",
+  "HO_PH": "UNDERPOWERED",
+  "PG_PN": "UNDERPOWERED",
+  "PN_PG": "UNDERPOWERED"
+ },
+ "version": "chimp-1"
+}

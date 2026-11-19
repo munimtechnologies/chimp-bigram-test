@@ -11,17 +11,29 @@ same utterance) from a mixture (sometimes A's situation, sometimes B's). This pr
 per-utterance test on the paper's own public data (Zenodo 13889876, CC BY 4.0), calibrated with
 synthetic mixtures and conjunctions built from the real calls.
 
+## Result (graded 2026-11-19): [RESULTS-CHIMP.md](RESULTS-CHIMP.md)
+
+Overall label **`NO_CONJUNCTION_POWERED`**. All 8 pairs the paper calls additive were testable;
+the A-or-B mixture was rejected for none of them. Across their 314 utterances, only 4 carry an
+event typical of call A together with an event typical of call B. For the three pairs where the
+test had at least 80% power to see a true conjunction (HO_GR, PG_GR, PH_PG), the data look like a
+mixture of A's and B's situations; the other five are underpowered. The paper's distance
+criterion ("A and B are the pair's two closest single calls") was met by 1132 of 1600 synthetic
+pure-mixture sets, so it cannot tell "A and B" from "A or B". 7 of 9 graded predictions came
+true (Brier 0.171).
+
+## Files
+
 - [CHIMP-PREREG.md](CHIMP-PREREG.md): the pre-registered question, test, labels, calibration and
   predictions, made public before any statistic was computed.
 - `chimp.py`: the analysis (Python standard library only). `test_chimp.py`: its tests.
-- `test_chimp_results.py`: the grader, published before any result exists. It does not import
+- `test_chimp_results.py`: the grader, published before any result existed. It does not import
   `chimp.py`. With its own code it re-derives Gate D, Gate R, every Holm decision, every
   per-bigram label, the overall label, C4, the sensitivity labels, the ten predictions and the
   Brier score from `results/chimp/chimp_results.json`, checks every count, smoothed rate,
   mixture weight and calibration rate for consistency, and fixes the exact lines
   RESULTS-CHIMP.md must print (`render_md_lines`).
-- Status: **registered; the job (chimp-bigram-v1) is waiting for compute.** Results will be
-  published in RESULTS-CHIMP.md whichever way they fall.
+- `results/chimp/chimp_results.json`: the raw output of job chimp-bigram-v1 (2026-11-19).
 
 Run it yourself:
 
