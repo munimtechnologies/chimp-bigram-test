@@ -14,13 +14,19 @@ synthetic mixtures and conjunctions built from the real calls.
 - [CHIMP-PREREG.md](CHIMP-PREREG.md): the pre-registered question, test, labels, calibration and
   predictions, made public before any statistic was computed.
 - `chimp.py`: the analysis (Python standard library only). `test_chimp.py`: its tests.
+- `test_chimp_results.py`: the grader, published before any result exists. It does not import
+  `chimp.py`. With its own code it re-derives Gate D, Gate R, every Holm decision, every
+  per-bigram label, the overall label, C4, the sensitivity labels, the ten predictions and the
+  Brier score from `results/chimp/chimp_results.json`, checks every count, smoothed rate,
+  mixture weight and calibration rate for consistency, and fixes the exact lines
+  RESULTS-CHIMP.md must print (`render_md_lines`).
 - Status: **registered; the job (chimp-bigram-v1) is waiting for compute.** Results will be
   published in RESULTS-CHIMP.md whichever way they fall.
 
 Run it yourself:
 
 ```
-python -m unittest -v test_chimp
+python -m unittest -v test_chimp test_chimp_results
 python chimp.py --data-dir data --out-dir out
 ```
 
